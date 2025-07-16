@@ -9,16 +9,16 @@ import Link from "next/link";
 
 const catalogs = [
   {
-    name: "Catalog A",
-    file: "/pdfs/Catalog-a.pdf",
+    name: "DC Inverter VRF System",
+    file: "/pdfs/dc-inverter-vrf-system.pdf",
   },
   {
-    name: "Catalog B",
-    file: "/pdfs/Catalog-b.pdf",
+    name: "Fan Coil Units",
+    file: "/pdfs/fan-coil-units.pdf",
   },
   {
-    name: "Catalog C",
-    file: "/pdfs/Catalog-c.pdf",
+    name: "Rooftop Air Conditioner Unit",
+    file: "/pdfs/rooftop-AC-unit.pdf",
   },
 ];
 

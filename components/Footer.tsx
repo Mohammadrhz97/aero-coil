@@ -31,17 +31,17 @@ const Footer: React.FC = () => {
           {/* Navigation links */}
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <Link href="/features" className="hover:underline me-4 md:me-6">
+              <Link href="#features" className="hover:underline me-4 md:me-6">
                 Features
               </Link>
             </li>
             <li>
-              <Link href="/download" className="hover:underline me-4 md:me-6">
+              <Link href="#download" className="hover:underline me-4 md:me-6">
                 Download
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:underline me-4 md:me-6">
+              <Link href="#contact" className="hover:underline me-4 md:me-6">
                 Contact
               </Link>
             </li>
@@ -58,6 +58,13 @@ const Footer: React.FC = () => {
             Aero Coil
           </Link>
           . All Rights Reserved.
+          <br /> WebDesign and Develope by{" "}
+          <Link
+            href="https://github.com/mohammadrhz97"
+            className="underline text-gray-800"
+          >
+            M.HosseinZadeh
+          </Link>
         </span>
       </div>
     </footer>

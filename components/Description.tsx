@@ -14,7 +14,6 @@ import G3 from "../public/description/G3.png";
 import G4 from "../public/description/G4.png";
 import G5 from "../public/description/G5.png";
 import GetTheCataloge from "./GetTheCataloge";
-import Contact from "./Contact";
 
 function Description() {
   return (
@@ -365,7 +364,6 @@ function Description() {
           </motion.div>
         </div>
         <GetTheCataloge />
-        <Contact />
       </section>
     </>
   );

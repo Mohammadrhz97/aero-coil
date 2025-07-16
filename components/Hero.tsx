@@ -55,10 +55,10 @@ function Hero() {
             />
           </div>
           <Link
-            href={"#contact"}
+            href={"#download"}
             className="border border-black text-2xl bg-[var(--color-lightBlue)]/60 rounded-3xl px-5 py-1 cursor-pointer font-semibold transition-transform duration-200 hover:scale-105"
           >
-            Contact
+            Products
           </Link>
         </div>
       </div>

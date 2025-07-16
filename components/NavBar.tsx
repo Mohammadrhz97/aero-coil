@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import Calling from "../public/Calling.gif";
+import { IoHomeOutline } from "react-icons/io5";
 import Link from "next/link";
 import logo from "../public/logo.png";
 
@@ -74,14 +74,7 @@ function Navbar() {
           href={"#contact"}
           className="md:flex items-center justify-center cursor-pointer hidden "
         >
-          <Image
-            src={Calling}
-            alt="Calling"
-            width={18}
-            height={18}
-            className="w-12 h-12 object-contain p-1"
-            unoptimized
-          />
+          <IoHomeOutline size={25} />
         </Link>
         {/* Mobile Menu Toggle */}
         <div onClick={() => setNav(!nav)} className="block md:hidden">
