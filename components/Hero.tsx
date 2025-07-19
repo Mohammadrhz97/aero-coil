@@ -27,8 +27,7 @@ function Hero() {
             className="w-96 h-auto object-contain"
             unoptimized
           />
-          <h2 className="font-bold text-[32px] text-white">ROOFTOP</h2>
-          <div className="w-[250px] h-[75px] flex items-center md:items-start flex-col">
+          <div className="w-[250px] h-[75px] flex items-center md:items-start flex-col mt-4">
             <TypeAnimation
               style={{
                 whiteSpace: "normal",
@@ -37,7 +36,7 @@ function Hero() {
                 textAlign: "left",
               }}
               speed={20}
-              sequence={[`AIR CONDITIONER UNIT`, 2000, ""]}
+              sequence={[`Unique Technical Knowledge`, 2000, ""]}
               className="text-[18px] text-white"
               repeat={Infinity}
             />
@@ -49,7 +48,7 @@ function Hero() {
                 textAlign: "left",
               }}
               speed={20}
-              sequence={[`Universal Compact Series`, 2000, ""]}
+              sequence={[`In air conditioning industry`, 2000, ""]}
               className=" font-light text-[14px] text-white"
               repeat={Infinity}
             />

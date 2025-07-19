@@ -40,11 +40,6 @@ const Footer: React.FC = () => {
                 Download
               </Link>
             </li>
-            <li>
-              <Link href="#contact" className="hover:underline me-4 md:me-6">
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
 
