@@ -21,8 +21,8 @@ function Description() {
       <section id="features" className="relative pt-8 p-6 scroll-mt-12">
         {/* Background */}
         <div
-          className="absolute inset-0 bg-black bg-cover bg-center bg-fixed bg-no-repeat blur-[3px] contrast-70 -z-10"
-          style={{ backgroundImage: `url(${P2.src})` }}
+          className="absolute inset-0  bg-gradient-to-r from-[#55565C] to-[#3A4957] bg-fixed bg-no-repeat -z-10"
+          // style={{ backgroundImage: `url(${P2.src})` }}
         />
 
         {/* Section Title */}
