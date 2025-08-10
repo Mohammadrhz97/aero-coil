@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import P2 from "../public/P2.png";
 import D1 from "../public/description/D1.png";
 import D2 from "../public/description/D2.png";
 import D3 from "../public/description/D3.png";
